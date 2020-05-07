@@ -21,11 +21,11 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- primes
+- interpolate
 
 library:
   source-dirs: src
-  dependencies:
-  - primes
 
 executables:
   project-euler-exe:
